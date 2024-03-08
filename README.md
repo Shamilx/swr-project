@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+ <h1>SWR Project</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <h2>Description</h2>
 
-Currently, two official plugins are available:
+  <p>This project is based on the SWR (Stale-While-Revalidate) framework. It aims to provide a performant and responsive user experience by leveraging SWR for data fetching and caching.</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <h2>Features</h2>
 
-## Expanding the ESLint configuration
+  <ul>
+      <li><strong>SWR Integration:</strong> Utilizes the SWR framework for efficient data fetching and caching.</li>
+      <li><strong>Optimizations:</strong> Includes optimizations for improved performance. (Note: Comment out optimizations if encountering issues.)</li>
+      <li><strong>Server Hosting:</strong> The server component of the project is available in the <code>server</code> folder for hosting purposes.</li>
+  </ul>
+    <h2>Installation</h2>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+  <ol>
+        <li>Clone the repository: <code>git clone https://github.com/Shamilx/swr-project.git</code></li>
+        <li>Navigate to the project directory: <code>cd swr-project</code></li>
+        <li>Install dependencies: <code>npm install</code></li>
+  </ol>
+  <h2>Usage</h2>
 
-- Configure the top-level `parserOptions` property like this:
+  <ol>
+       <li>Start the server: Navigate to the <code>server</code> folder and run <code>npm run server</code>.</li>
+       <li>Start the client: Navigate to the project root and run <code>npm run dev</code>.</li>
+        <li>Access the application in your browser at <code>http://localhost:3000</code>.</li>
+  </ol>
+  <h2>Contributing</h2>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+  <p>Contributions are welcome! If you'd like to contribute to this project, please follow these steps:</p>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+  <ol>
+        <li>Fork the repository.</li>
+        <li>Create a new branch for your feature or bug fix: <code>git checkout -b feature-branch</code>.</li>
+        <li>Make your changes and commit them: <code>git commit -am 'Add new feature'</code>.</li>
+        <li>Push to the branch: <code>git push origin feature-branch</code>.</li>
+        <li>Submit a pull request.</li>
+  </ol>
+   <h2>Credits</h2>
+
+  <ul>
+        <li>SWR framework: <a href="https://swr.vercel.app">SWR</a></li>
+  </ul>
+
+  <h2>Support</h2>
+
+  <p>If you encounter any issues or have questions about the project, please <a href="https://github.com/yourusername/yourproject/issues">open an issue</a> on GitHub.</p>
+  <hr/>
