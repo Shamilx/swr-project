@@ -9,7 +9,7 @@
   <ul>
       <li><strong>SWR Integration:</strong> Utilizes the SWR framework for efficient data fetching and caching.</li>
       <li><strong>Optimizations:</strong> Includes optimizations for improved performance. (Note: Comment out optimizations if encountering issues.)</li>
-      <li><strong>Server Hosting:</strong> The server component of the project is available in the <code>server</code> folder for hosting purposes.</li>
+      <li><strong>Server Hosting:</strong> The server component of the project is available in the <code>swr-server</code> folder for hosting purposes.</li>
   </ul>
     <h2>Installation</h2>
 
