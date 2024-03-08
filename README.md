@@ -39,7 +39,7 @@
    <h2>Credits</h2>
 
   <ul>
-        <li>SWR framework: <a href="https://swr.vercel.app">Link to SWR documentation or GitHub repository</a></li>
+        <li>SWR framework: <a href="https://swr.vercel.app">SWR</a></li>
   </ul>
 
   <h2>Support</h2>
